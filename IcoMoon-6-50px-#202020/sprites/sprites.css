@@ -1,0 +1,31 @@
+[class*="icon-"] {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-image: url(sprites.svg);
+	background-repeat: no-repeat;
+}
+.icon-newspaper {
+	background-position: 0 0;
+	width: 50px;
+}
+.icon-pushpin {
+	background-position: -66px 0;
+	width: 32px;
+}
+.icon-cabinet {
+	background-position: -114px 0;
+	width: 50px;
+}
+.icon-drawer {
+	background-position: -180px 0;
+	width: 50px;
+}
+.icon-drawer2 {
+	background-position: -246px 0;
+	width: 50px;
+}
+.icon-drawer3 {
+	background-position: -312px 0;
+	width: 50px;
+}

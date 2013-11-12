@@ -1,0 +1,21 @@
+body{background:url("img/geometry_@2X.png");background-size:60%;font-size:18px;height:100%;width:100%}
+header{background:url("img/b2.png") no-repeat;background-position:center;background-size:30%;border:1px solid rgba(0,0,0,0);font-family:serif;height:150px;width:100%;}
+header h1{background:url("img/b1.png");font-size:1.8em;color:#edecec;padding:.1em 0;margin:1.6em 0 0 0;text-align:center}
+section{position:relative;}
+section article{text-align:center;}
+section article #g{-webkit-transition:1s all linear;transition:1s all linear;border:none;display:block;margin:3em auto;outline:#dee0df 2px solid;text-align:center;width:80%}
+section article .button{background:url("img/tweed_@2X.png");outline:#dee0de solid 4px;color:#fff;cursor:pointer;display:inline-block;font-size:1.2em;margin:.2em;padding:.2em .5em;min-width:100px}
+section #sis{padding:1em 0;}
+section #sis input{background:none;border:none;border-bottom:1px dotted #ccc;text-align:center;margin:.5em;width:35px}
+section #res{position:relative;text-align:left;}
+section #res p{display:inline-block;margin:.5em;vertical-align:middle;width:70%}
+section #res .res{border-top:2px dotted #ccc;}
+section #res .res img{float:right;position:relative;top:-25px}
+section #notas{background:#fff;box-shadow:3px 3px 2px #ddd;height:200px;position:absolute;display:none;right:10px;top:3px;overflow-y:scroll;width:40%;z-index:3;}
+section #notas p{display:inline-block;vertical-align:top;width:50%}
+#botones{text-align:right;}
+#botones img{position:relative;margin:0 1em;top:-50px}
+@media (max-width:500px){body{background:url("img/geometry.png")}
+section article .button{background:url("img/tweed.png")}
+section #notas{width:80%}
+}
